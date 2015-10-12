@@ -15,8 +15,26 @@ h1{
     margin-bottom: 30px;
 }
 
+.thumbnails2{
+	width: 10%;
+	float: right;
+	margin: 0 2%
+}
+
+.thumbnails2 img{
+	
+	height: 85px;
+	border: 4px solid #555;
+	margin: 0 2%;
+}
+
+.thumbnails2 p{
+	color: #145e33;
+	text-align: center;
+}
+
 .thumbnails{
-	width: 20%;
+	width: 10%;
 	float: left;
 	margin: 0 2%
 }
@@ -38,17 +56,31 @@ h1{
 	margin: 0 2%;
 }
 
-.thumbnails img:hover{
+.thumbnails2 img{
+	
+	height: 85px;
+	border: 4px solid #555;
+	margin: 0 2%;
+}
+
+.thumbnails2 img:hover{
 	border: 4px solid #145e33;
 	height: 85px;
 
 }
 
+.thumbnails img:hover{
+	border: 4px solid #145e33;
+	height: 85px;
+	border-radius: 2px
+
+}
+
 .preview{
 	text-align: center;
-	width: 40%;
-	float: right;
-	margin: 15% 17.5%;
+	width: 60%;
+	float: left;
+	margin: 0% 5%;
 
 }
 
