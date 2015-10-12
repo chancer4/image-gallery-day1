@@ -7,10 +7,6 @@ body{
 
 	<font-family: 'Playfair Display', serif; 
 
-
-
-
-
 }
 
 h1{
@@ -27,6 +23,7 @@ h1{
 
 .thumbnail{
 	text-align: center;
+	margin: inherit;
 }
 
 .thumbnails p{
@@ -49,9 +46,9 @@ h1{
 
 .preview{
 	text-align: center;
-	width: 70%;
-	float: left;
-	margin: 0 2%;
+	width: 40%;
+	float: right;
+	margin: 15% 17.5%;
 
 }
 
